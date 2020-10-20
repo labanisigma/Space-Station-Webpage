@@ -1,0 +1,238 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a
+{
+    margin-right:auto ;
+    margin-left: auto;
+    position: fixed;
+    border: 1px solid ;
+    padding: 10px;
+    border-radius: 2px;
+    color:  black;
+    background-color: white;
+    text-decoration: none;
+    width:90px;
+    height: 15px;
+    text-align: center;
+    z-index: 2;
+}
+.navbar a:hover {
+    margin-right:auto;margin-left:auto;position:fixed;
+    border: 1px solid  black;
+    box-shadow: 3px 3px #A9A9A9;
+    padding: 15px;
+    opacity: 0.5;
+    color: red;
+    border-radius: 7px;
+    background: transparent;
+}
+
+#home{
+    left: 33.6%;
+}
+#gallery{
+    left: 45%;
+}
+
+.background_image img
+{
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("images/planets.jpg");
+    min-height: 100%;
+}
+.heading
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: white 4px double;
+
+}
+.space_station::first-letter
+{
+    font-size: 500%;
+}
+.gallery h1
+{
+    color: red;
+    text-align: center;
+    margin-top: 15%;
+    font-weight: bold;
+
+}
+.gallery
+{
+    z-index: 5;
+    margin-top: 5%;
+}
+.gallery hr
+{
+    width:11%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+    border-top: 3px solid red;
+    box-shadow: 0px 3px 4px -1px #333;
+
+}
+.planet_images
+{
+    background-color: #C6BBA9;
+    margin: 3% 0.5%;
+    padding: 20px;
+    border-radius: 9px;
+    overflow:hidden;
+    box-shadow: 5px 5px 	#808080;
+}
+.img
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 23%;
+    float: left;
+    margin-right: 1.6%;
+    margin-left: 0.4%;
+
+}
+.img img
+{
+    float: left;
+    border-radius: 4px;
+    height: 160px;
+    width: 100%;
+    box-shadow: 1px 1px #ffff66;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.last
+{
+    margin-left: 39%;
+
+}
+
+.flex:hover  img {
+    opacity: 0.9;
+}
+.img p span
+{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#reservation{
+    left:56.5%;
+}
+.reservation
+{
+    background-color: #f1f1f1;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+.reservation hr{
+    width:12%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+    border-top: 3px solid red;
+    box-shadow: 0px 3px 4px -1px #333;
+}
+.reservation h1{
+    padding-top: 100px;
+    text-align: center !important;
+    color: red;
+    text-shadow: 1px 1px red;
+
+}
+.container2 {
+    text-align: center;
+    background-color: #CBBEAB !important;
+    border-radius: 9px;
+    overflow:hidden;
+    width: 55%;
+    margin: 12% auto 0 auto;
+    padding: 30px;
+}
+.journey{
+    text-align: center;
+    font-size: 21px;
+    font-family: "Courier 10 Pitch";
+    font-weight: bold;
+}
+
+.information
+{
+    font-size: 16px;
+}
+.container3{
+    width: 76%;
+    background-color: #E4DEDE;
+    box-shadow: 2px 2px #808080;
+    border-radius: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.container3 input{
+    box-shadow: 2px 2px #808080;
+    width:29%;
+    padding: 4px;
+
+}
+
+
+input[type=button]{
+    background-color: #a0a0a0;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 700;
+    margin-left: -45%;
+    border-radius: 8px;
+    width: 20%;
+}
+input[type=button]:hover
+{
+
+    background-color: #c6bba8;
+}
+.container3 a
+{
+    float: right;
+    font-size: larger;
+    margin-top: 2%;
+    color: black;
+    text-anchor: none;
+}
+.container3 a:hover
+{
+    color: #ff9933;
+}
+.info{
+    border-left-color: #C0C0BB;
+}
+.reserve
+{
+    font-size: 19px;
+    font-weight: bold;
+}
